@@ -1,0 +1,32 @@
+{
+  "name": "ctf",
+  "version": "1.0.0",
+  "description": "online 3v3 ctf",
+  "engines": {
+    "node": "8.17.0"
+  },
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LingLingAndy/node-ctf.git"
+  },
+  "keywords": [
+    "sophomore",
+    "project"
+  ],
+  "author": "Andy Young",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LingLingAndy/node-ctf/issues"
+  },
+  "homepage": "https://github.com/LingLingAndy/node-ctf#readme"
+}
