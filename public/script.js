@@ -47,6 +47,9 @@ $(function() {
     })
 
     setInterval(function() {
+        if(local_data == undefined) {
+            return;
+        }
         canvas.width=canvas.width;
         for(var i = 0; i < local_data.heroes.length; i++) {
             if(local_data.heroes[i].active == true) {
